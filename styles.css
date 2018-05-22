@@ -1,0 +1,119 @@
+html {
+	display: flex;
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex: 0 0 100%; 
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	font-family: titillium web;
+	background-color: #F9FAFB;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+button {
+	font-family: titillium web;
+	cursor: pointer;
+}
+
+
+.login-card {
+	display: flex;
+	height: 456px;
+	width: 896px;
+	background-color: #59A3CF;
+	border-radius: 2px;
+	box-shadow: 8px 16px 60px rgba(0, 0, 0, .1);
+}
+
+.left-panel {
+	display: flex;
+	flex: 0 0 384px;
+	flex-direction: column;
+	background-color: #FFFFFF;
+	padding-top: 72px;
+}
+
+.graphic {
+	margin-top: 52px;
+}
+
+.right-panel {
+	flex: 1 0 auto;
+	padding: 72px 104px;
+	color: #ffffff;
+
+}
+
+.sign-in {
+	font-size: 28px;
+	line-height: 32px;
+	text-align: center;
+	font-weight: lighter;
+	margin-bottom: 56px;
+}
+
+
+label {
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: 400;
+	margin-bottom: 4px;
+}
+
+.form-fields {
+	border-style: none;
+	padding: 8px 10px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 2px;
+	font-size: 15px;
+	line-height: 20px;
+	color: #333333;
+	margin-bottom: 12px;
+}
+
+.login-button {
+	padding: 8px 0;
+	width: 100%;
+	background-color: #59A3CF;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 20px;
+	color: #ffffff;
+	border: 2px solid #ffffff;
+	border-radius: 2px;
+	margin-top: 8px;
+}
+
+.hover:hover {
+	background-color: #75b3d7;
+	transition-duration: .4s;
+}
+
+a {
+	display: flex;
+	justify-content: flex-end;
+	color: #ffffff;
+	margin-top: 16px;
+	font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
